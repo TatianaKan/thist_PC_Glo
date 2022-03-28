@@ -1,0 +1,466 @@
+@media (max-width: 1380px) {
+  .main__display {
+    padding-top: 18rem;
+  }
+
+  .main__display-title {
+    font-size: 6rem;
+    margin-bottom: 4rem;
+  }
+
+  .main__display-timer {
+    margin-bottom: 3rem;
+  }
+
+  .main__display .container {
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header__nav a:not(:last-child) {
+    margin-right: 5.1rem;
+  }
+
+  .main__display {
+    padding-top: 15rem;
+  }
+
+  .main__display-title {
+    font-size: 4.5rem;
+  }
+
+  .main__display-timer {
+    margin-bottom: 3rem;
+  }
+
+  .work {
+    padding-top: 1rem;
+  }
+
+  .work__img img {
+    width: 41.5rem;
+    height: 41.2rem;
+    margin-right: 4rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding: 4rem 5rem;
+  }
+
+  .header__nav a:not(:last-child) {
+    margin-right: 3.1rem;
+  }
+
+  .main__display-title {
+    max-width: 60rem;
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+  }
+
+  .timer__item {
+    width: 8.2rem;
+    height: 9.2rem;
+  }
+
+  .main__display .container {
+    padding-bottom: 4rem;
+  }
+
+  .work,
+  .process,
+  .assembly,
+  .command {
+    padding-bottom: 10rem;
+  }
+
+  .work {
+    padding-top: 4rem;
+  }
+
+  .work__text {
+    margin-top: 1rem;
+  }
+
+  .work__img img {
+    width: 25.5rem;
+    height: 25.2rem;
+    margin-right: 4rem;
+    margin-top: 10rem;
+  }
+
+  .process__columns::after {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header,
+  .work,
+  .process,
+  .assembly {
+    padding-bottom: 10rem;
+  }
+
+  .button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+  }
+
+  .header__link {
+    font-size: 1.2rem;
+  }
+
+  .header__nav a:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .main__display {
+    padding-top: 12rem;
+  }
+
+  .main__display .container {
+    padding-bottom: 8rem;
+  }
+  .main__display-timer {
+    margin-bottom: 2rem;
+  }
+
+  .timer__item {
+    width: 6.2rem;
+    height: 7.2rem;
+  }
+
+  .timer__item:not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  .timer__count {
+    font-size: 2rem;
+  }
+
+  .timer__text {
+    font-size: 1.4rem;
+  }
+
+  .work {
+    padding-top: 7rem;
+  }
+
+  .work__img img {
+    width: 25.5rem;
+    height: 25.2rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+  }
+
+  .work__text {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .work__header,
+  .process__header {
+    font-size: 3rem;
+  }
+
+  .process__work {
+    font-size: 2.6rem;
+  }
+
+  .process__columns::after {
+    width: 90%;
+  }
+
+  .command__wrap {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+  }
+
+  .command__title {
+    margin-bottom: 3rem;
+  }
+
+  .command__img {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__wrap {
+    justify-content: flex-start;
+  }
+
+  .header__nav {
+    padding-left: 3rem;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .main__display {
+    padding-top: 10rem;
+  }
+
+  .main__display .container {
+    padding-bottom: 2rem;
+  }
+
+  .main__display-title {
+    font-size: 1.8rem;
+  }
+
+  .main__display-timer {
+    margin-bottom: 1rem;
+  }
+
+  .timer__item {
+    width: 4.5rem;
+    height: 5.2rem;
+  }
+
+  .timer__item:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .timer__count {
+    font-size: 1.6rem;
+  }
+
+  .timer__text {
+    font-size: 1.1rem;
+  }
+
+  .work__img img {
+    width: 10rem;
+    height: 10rem;
+    margin-right: 2rem;
+    margin-top: 6rem;
+  }
+
+  .work {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .work__text {
+    margin-top: 1rem;
+    padding-top: 0;
+  }
+
+  .work__header,
+  .process__header {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .process {
+    padding-bottom: 7rem;
+  }
+
+  .process__description {
+    max-width: 100%;
+  }
+
+  .process__columns {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .process__columns::after {
+    display: none;
+  }
+
+  .process__item {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .process__work {
+    font-size: 2.6rem;
+    line-height: 120%;
+    margin-bottom: 2.5rem;
+  }
+
+  .command,
+  .assembly {
+    padding-bottom: 7rem;
+  }
+
+  .command__title {
+    margin-bottom: 2rem;
+  }
+
+  .command__wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .command__profesional {
+    margin: 1rem 0;
+  }
+
+  .command__img {
+    width: 13rem;
+    height: 13rem;
+    margin-bottom: 2rem;
+  }
+
+  .assembly__header {
+    font-size: 2.8rem;
+  }
+
+  .assembly__description {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main__display .container {
+    padding-bottom: 0;
+  }
+  .main__display .main__button {
+    position: absolute;
+    right: 2rem;
+    bottom: 1rem;
+  }
+
+  .work {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+
+  .work__img img {
+    display: none;
+  }
+
+  .work__text {
+    padding-top: 1rem;
+    margin-top: 5rem;
+  }
+
+  .work__header {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .work__description {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+
+  .process {
+    padding-bottom: 5rem;
+  }
+  .process__img {
+    width: 4rem;
+    height: 2rem;
+    padding-right: 1rem;
+  }
+
+  .process__header {
+    font-size: 1.8rem;
+  }
+
+  .process__description {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+
+  .process__work {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .process__text {
+    font-size: 1.2rem;
+    line-height: 120%;
+    text-align: justify;
+  }
+
+  .command {
+    padding-bottom: 5rem;
+  }
+
+  .command__title {
+    margin-bottom: 2rem;
+  }
+
+  .command__wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .command__img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .command__name {
+    font-size: 1.4rem;
+  }
+
+  .command__profesional {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .assembly {
+    padding-bottom: 5rem;
+  }
+
+  .assembly__header {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .assembly__description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .assembly__social {
+    gap: 1rem;
+  }
+
+  .assembly__item {
+    max-width: 4rem;
+    max-height: 4rem;
+  }
+
+  .assembly__item img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .modal__inner {
+    max-width: 40rem;
+    padding: 5rem 1rem;
+  }
+
+  .modal__close {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .modal__header {
+    font-size: 2rem;
+  }
+
+  .modal__subheader {
+    font-size: 1.2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .modal__item {
+    width: 32.5rem;
+    height: 3.5rem;
+  }
+}
